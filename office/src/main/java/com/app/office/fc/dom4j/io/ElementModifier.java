@@ -1,0 +1,7 @@
+package com.app.office.fc.dom4j.io;
+
+import com.app.office.fc.dom4j.Element;
+
+public interface ElementModifier {
+    Element modifyElement(Element element) throws Exception;
+}
